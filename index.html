@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GemJar Stats</title>
+    <meta name="description" content="Onchain stats for GemJar's PrizePool and SavingsJar contracts on Celo Mainnet." />
+  </head>
+  <body>
+    <main class="page">
+      <header class="head">
+        <h1>GemJar Stats</h1>
+        <p class="sub">Live from the PrizePool and SavingsJar contracts on Celo Mainnet.</p>
+      </header>
+
+      <section aria-label="Live contract state">
+        <h2>Right now</h2>
+        <div class="tiles" id="live" aria-live="polite"><p class="muted">Reading contracts…</p></div>
+      </section>
+
+      <section aria-label="History">
+        <h2>History</h2>
+        <div class="tiles" id="totals"></div>
+        <figure class="chart" id="chart"></figure>
+        <div class="table-wrap"><table id="rounds"></table></div>
+        <p class="muted" id="updated"></p>
+      </section>
+
+      <footer class="foot">
+        <a href="https://celoscan.io/address/0xf508930cC806936700abfD9bAEb7534558684Ed0" rel="noreferrer">PrizePool</a>
+        <a href="https://celoscan.io/address/0x734c2B09DB7c790d298ad639697b6ab02C452A83" rel="noreferrer">SavingsJar</a>
+        <a href="https://github.com/DevVichy/GemJar" rel="noreferrer">GemJar</a>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
