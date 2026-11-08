@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "chainId": 42220,
+  "lastBlock": 82229060,
+  "updatedAt": "2026-11-08T09:27:48.509Z",
+  "rounds": {},
+  "savings": {
+    "deposits": 0,
+    "deposited": "0",
+    "withdrawals": 0,
+    "withdrawn": "0",
+    "savers": [],
+    "longestStreak": 0
+  }
+}
