@@ -1,0 +1,26 @@
+{
+  "name": "gemjar-stats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Onchain stats dashboard for GemJar's PrizePool and SavingsJar contracts on Celo Mainnet.",
+  "type": "module",
+  "scripts": {
+    "index": "tsx scripts/index.ts",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "author": "Victor Nwaokobia",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
